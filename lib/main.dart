@@ -90,26 +90,30 @@ class _PriceCalculatorState extends State<PriceCalculator> {
             const SizedBox(height: 20),
             _buildPriceRow(
               'Enhancement Stone (Low Grade)',
+              'Stone (Low Grade)',
               calculatePrice(_shadowPrice, "+", 20000),
               Colors.blue[50]!,
             ),
             _buildPriceRow(
               'Enhancement Ore (Low Grade)',
+              'Ore (Low Grade)',
               _formatter.format(((_shadowPrice + 20000) - 10000) / 5),
               Colors.blue[50]!,
             ), // สูตร: ((_shadowPrice+20000)-10000)/5
             _buildPriceRow(
               'Enhancement Stone (Medium Grade)',
+              'Stone (Medium Grade)',
               _formatter.format(((_shadowPrice + 20000) * 3) + 10000),
               Colors.purple[50]!,
             ), // สูตร: (Stone Low*3)+10000 = ((_shadowPrice+20000)*3)+10000
             _buildPriceRow(
               'Enhancement Ore (Medium Grade)',
+              'Ore (Medium Grade)',
               _formatter.format((((_shadowPrice + 20000) * 3) - 10000) / 5),
               Colors.purple[50]!,
             ), // สูตร: (Stone Medium+10000)/5 = (((_shadowPrice+20000)*3)-10000)/5
             _buildPriceRow(
-              'Enhancement Stone (High Grade)',
+              'Stone (High Grade)',
               _formatter.format(
                 ((((_shadowPrice + 20000) * 3) + 10000) * 3) + 20000,
               ),
@@ -117,6 +121,7 @@ class _PriceCalculatorState extends State<PriceCalculator> {
             ), // สูตร: (Stone Medium*3)+20000
             _buildPriceRow(
               'Enhancement Ore (High Grade)',
+              'Ore (High Grade)',
               _formatter.format(
                 (((((_shadowPrice + 20000) * 3) + 10000) * 3) + 20000 - 50000) /
                     5,
@@ -125,6 +130,7 @@ class _PriceCalculatorState extends State<PriceCalculator> {
             ), // สูตร: (Stone High-50000)/5
             _buildPriceRow(
               'Enhancement Stone (Supreme Grade)',
+              'Stone (Supreme Grade)',
               _formatter.format(
                 ((((((_shadowPrice + 20000) * 3) + 10000) * 3) + 20000) * 3) +
                     50000,
@@ -133,6 +139,7 @@ class _PriceCalculatorState extends State<PriceCalculator> {
             ), // สูตร: (Stone High*3)+50000
             _buildPriceRow(
               'Enhancement Ore (Supreme Grade)',
+              'Ore (Supreme Grade)',
               _formatter.format(
                 (((((((_shadowPrice + 20000) * 3) + 10000) * 3) + 20000) * 3) +
                         50000 -
