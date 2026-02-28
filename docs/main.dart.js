@@ -74593,7 +74593,7 @@ s=A.ah1(a,",","")
 if(s.length===0)return""
 return this.f.kb(A.hC(s,null))},
 O(a){var s=this,r=null,q=A.d([$.aqS(),new A.Pg(new A.acq(s))],t.VS),p=s.e,o=s.f
-return new A.xj(new A.tA(B.Q1,new A.NQ(r,r,1/0,56),r),new A.Im(B.Cn,A.ahI(A.d([new A.yl(s.d,B.D3,B.Mv,B.LF,B.LG,new A.acr(s),q,!0,r),B.LD,s.kM("Enhancement Stone (Low Grade)",o.kb(p+2e4),B.i6),s.kM("Enhancement Ore (Low Grade)",o.kb((s.e+2e4-1e4)/5),B.i6),s.kM("Enhancement Stone (Medium Grade)",o.kb((s.e+2e4)*3+1e4),B.lv),s.kM("Enhancement Ore (Medium Grade)",o.kb(((s.e+2e4)*3-1e4)/5),B.lv),s.kM("Enhancement Stone (High Grade)",o.kb(((s.e+2e4)*3+1e4)*3+2e4),B.lF),s.kM("Enhancement Ore (High Grade)",o.kb((((s.e+2e4)*3+1e4)*3+2e4-5e4)/5),B.lF),s.kM("Enhancement Stone (Supreme Grade)",o.kb((((s.e+2e4)*3+1e4)*3+2e4)*3+5e4),B.lA),s.kM("Enhancement Ore (Supreme Grade)",o.kb(((((s.e+2e4)*3+1e4)*3+2e4)*3+5e4-1e5)/5),B.lA)],t.J),B.c0,B.cx,B.jB),r),r)},
+return new A.xj(new A.tA(B.Q1,new A.NQ(r,r,1/0,56),r),new A.Im(B.Cn,A.ahI(A.d([new A.yl(s.d,B.D3,B.Mv,B.LF,B.LG,new A.acr(s),q,!0,r),B.LD,s.kM("Stone (Low Grade)",o.kb(p+2e4),B.i6),s.kM("Ore (Low Grade)",o.kb((s.e+2e4-1e4)/5),B.i6),s.kM("Stone (Medium Grade)",o.kb((s.e+2e4)*3+1e4),B.lv),s.kM("Ore (Medium Grade)",o.kb(((s.e+2e4)*3-1e4)/5),B.lv),s.kM("Stone (High Grade)",o.kb(((s.e+2e4)*3+1e4)*3+2e4),B.lF),s.kM("Ore (High Grade)",o.kb((((s.e+2e4)*3+1e4)*3+2e4-5e4)/5),B.lF),s.kM("Stone (Supreme Grade)",o.kb((((s.e+2e4)*3+1e4)*3+2e4)*3+5e4),B.lA),s.kM("Ore (Supreme Grade)",o.kb(((((s.e+2e4)*3+1e4)*3+2e4)*3+5e4-1e5)/5),B.lA)],t.J),B.c0,B.cx,B.jB),r),r)},
 kM(a,b,c){var s=null,r=A.oQ(8)
 return A.ahL(A.axN(A.d([A.jy(a,s,s,s,B.Ol,s,s),A.jy(b,s,s,s,B.NJ,s,s)],t.J),B.c0,B.rv,B.jB),B.Q,new A.f_(c,s,s,r,s,s,B.bY),s,B.Cj,B.Cm,s)}}
 A.acq.prototype={
