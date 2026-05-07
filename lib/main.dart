@@ -9,6 +9,7 @@ class GamePriceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Shadowdecon', // ใส่ชื่อที่ต้องการตรงนี้
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo),
       home: const PriceCalculator(),
